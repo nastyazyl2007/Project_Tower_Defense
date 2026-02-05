@@ -58,15 +58,4 @@ public class Wave_spawn : MonoBehaviour
 
         Debug.Log($"Волна {current_wave_number}: создан враг {enemies_spawned_in_current_wave}/{enemy_number}");
     }
-
-    public void CompleteCurrentWave()
-    {
-        CancelInvoke("SpawnEnemyInCurrentWave");
-        is_spawning_wave = false;
-
-        if (current_wave_number < wave_number)
-        {
-            Invoke("StartNextWave", time_between_waves);
-        }
-    }
 }
