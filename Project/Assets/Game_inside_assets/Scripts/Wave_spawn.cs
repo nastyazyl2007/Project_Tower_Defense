@@ -2,8 +2,6 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-
-//Ввести сюда списки для обозначения сколько и каких врагов и где должны появиться на карте
 public class Wave_spawn : MonoBehaviour
 {
     [SerializeField] public int enemy_number;      
