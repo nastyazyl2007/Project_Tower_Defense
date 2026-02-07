@@ -4,6 +4,7 @@ using System.Collections;
 public class Move_from_point_to_point : MonoBehaviour
 {
     [SerializeField] public float speed;
+    [SerializeField] public float rotation_speed;
     [SerializeField] public Transform[] point;
     int current_waypoint_index = 0;
 
@@ -11,6 +12,16 @@ public class Move_from_point_to_point : MonoBehaviour
     {
         if (current_waypoint_index < point.Length) {
             transform.position = Vector3.MoveTowards(transform.position, point[current_waypoint_index].position,Time.deltaTime * speed);
+            Vector3 direction = point[current_waypoint_index].position - transform.position;
+            if (direction != Vector3.zero)
+            {
+                Quaternion targetRotation = Quaternion.LookRotation(direction);
+                transform.rotation = Quaternion.Lerp(
+                    transform.rotation,
+                    targetRotation,
+                    Time.deltaTime * rotation_speed
+                );
+            }
             if (Vector3.Distance(transform.position, point[current_waypoint_index].position) < 0.1f) current_waypoint_index++;
         }
     }

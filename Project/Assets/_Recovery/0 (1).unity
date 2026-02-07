@@ -274,7 +274,6 @@ GameObject:
   - component: {fileID: 165443391}
   - component: {fileID: 165443390}
   - component: {fileID: 165443389}
-  - component: {fileID: 165443392}
   m_Layer: 0
   m_Name: stand
   m_TagString: Untagged
@@ -375,22 +374,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165443387}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &165443392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 165443387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be30535801a28a94d92d6ebc316d5371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Tower_place
-  tower: {fileID: 3645568836180812200, guid: aa7b199fe1c371e41b25a28ac973bfe9, type: 3}
-  empty: 1
-  offset: {x: 0, y: 0.62, z: 0}
-  current_tower: {fileID: 0}
 --- !u!1 &292653924
 GameObject:
   m_ObjectHideFlags: 0
@@ -1193,7 +1176,6 @@ GameObject:
   - component: {fileID: 944086510}
   - component: {fileID: 944086509}
   - component: {fileID: 944086508}
-  - component: {fileID: 944086511}
   m_Layer: 0
   m_Name: stand
   m_TagString: Untagged
@@ -1294,22 +1276,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 944086506}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &944086511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 944086506}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be30535801a28a94d92d6ebc316d5371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Tower_place
-  tower: {fileID: 3645568836180812200, guid: aa7b199fe1c371e41b25a28ac973bfe9, type: 3}
-  empty: 1
-  offset: {x: 0, y: 0.62, z: 0}
-  current_tower: {fileID: 0}
 --- !u!1 &967864878
 GameObject:
   m_ObjectHideFlags: 0
@@ -1353,7 +1319,6 @@ GameObject:
   - component: {fileID: 982767093}
   - component: {fileID: 982767092}
   - component: {fileID: 982767091}
-  - component: {fileID: 982767094}
   m_Layer: 0
   m_Name: stand
   m_TagString: Untagged
@@ -1454,22 +1419,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 982767089}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &982767094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 982767089}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be30535801a28a94d92d6ebc316d5371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Tower_place
-  tower: {fileID: 3645568836180812200, guid: aa7b199fe1c371e41b25a28ac973bfe9, type: 3}
-  empty: 1
-  offset: {x: 0, y: 0.62, z: 0}
-  current_tower: {fileID: 0}
 --- !u!1 &988174127
 GameObject:
   m_ObjectHideFlags: 0
@@ -1594,7 +1543,6 @@ GameObject:
   - component: {fileID: 1076492127}
   - component: {fileID: 1076492126}
   - component: {fileID: 1076492125}
-  - component: {fileID: 1076492128}
   m_Layer: 0
   m_Name: stand (1)
   m_TagString: Untagged
@@ -1695,22 +1643,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1076492123}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1076492128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1076492123}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be30535801a28a94d92d6ebc316d5371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Tower_place
-  tower: {fileID: 3645568836180812200, guid: aa7b199fe1c371e41b25a28ac973bfe9, type: 3}
-  empty: 1
-  offset: {x: 0, y: 0.62, z: 0}
-  current_tower: {fileID: 0}
 --- !u!1 &1366449652
 GameObject:
   m_ObjectHideFlags: 0
@@ -1835,7 +1767,6 @@ GameObject:
   - component: {fileID: 1380601147}
   - component: {fileID: 1380601146}
   - component: {fileID: 1380601145}
-  - component: {fileID: 1380601148}
   m_Layer: 0
   m_Name: stand (2)
   m_TagString: Untagged
@@ -1936,22 +1867,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1380601143}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1380601148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1380601143}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be30535801a28a94d92d6ebc316d5371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Tower_place
-  tower: {fileID: 3645568836180812200, guid: aa7b199fe1c371e41b25a28ac973bfe9, type: 3}
-  empty: 1
-  offset: {x: 0, y: 0.62, z: 0}
-  current_tower: {fileID: 0}
 --- !u!1 &1404426599
 GameObject:
   m_ObjectHideFlags: 0
@@ -2561,7 +2476,6 @@ GameObject:
   - component: {fileID: 1985098325}
   - component: {fileID: 1985098324}
   - component: {fileID: 1985098323}
-  - component: {fileID: 1985098326}
   m_Layer: 0
   m_Name: stand
   m_TagString: Untagged
@@ -2662,22 +2576,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1985098321}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1985098326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985098321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be30535801a28a94d92d6ebc316d5371, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Tower_place
-  tower: {fileID: 3645568836180812200, guid: aa7b199fe1c371e41b25a28ac973bfe9, type: 3}
-  empty: 1
-  offset: {x: 0, y: 0.62, z: 0}
-  current_tower: {fileID: 0}
 --- !u!1 &2125033886
 GameObject:
   m_ObjectHideFlags: 0
