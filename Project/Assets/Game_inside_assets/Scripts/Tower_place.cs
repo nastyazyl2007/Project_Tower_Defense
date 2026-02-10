@@ -1,29 +1,30 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Tower_place : MonoBehaviour
 {
-
-    [SerializeField] public GameObject tower;
-    public bool empty = true;
-    public Vector3 offset;
+    [SerializeField] public GameObject[] towers;
+    [SerializeField] public Vector3 offset;
     public GameObject current_tower;
+    [SerializeField]  public int current_tower_number;
+    public bool empty = true;
 
-    void Start()
+    private void Start()
     {
-        if (tower == null)
+        if (towers != null)
         {
-            Debug.LogError("Prefab башни не назначен в инспекторе!");
+            Debug.Log("Все префабы башен добавлены!");
         }
         else
         {
-            Debug.Log("Prefab башни назначен: " + tower.name);
+            Debug.Log("Префабы башен не добавлены!!!");
         }
     }
-    void OnMouseDown()
+    private void OnMouseDown()
     {
         if (empty)
         {
-            current_tower = GameObject.Instantiate(tower, transform.position + offset, Quaternion.identity) as GameObject;
+            current_tower = GameObject.Instantiate(towers[current_tower_number], transform.position + offset, Quaternion.identity) as GameObject;
             empty = false;
         }
     }
