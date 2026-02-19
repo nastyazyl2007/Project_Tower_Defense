@@ -24,11 +24,6 @@ public class Wave_spawn : MonoBehaviour
 
     void StartNextWave()
     {
-        if (current_wave_number >= wave_number)
-        {
-            Debug.Log("Все волны завершены!");
-            return;
-        }
 
         current_wave_number++;
         enemies_spawned_in_current_wave = 0;  
