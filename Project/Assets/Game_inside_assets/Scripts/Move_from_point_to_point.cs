@@ -3,8 +3,8 @@ using System.Collections;
 
 public class Move_from_point_to_point : MonoBehaviour
 {
-    [SerializeField] public float speed;
-    [SerializeField] public float rotation_speed;
+    [SerializeField] private float speed;
+    [SerializeField] private float rotation_speed;
     [SerializeField] public Transform[] point;
     int current_waypoint_index = 0;
 

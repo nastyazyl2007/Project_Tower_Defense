@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class Tower_place : MonoBehaviour
 {
-    [SerializeField] public GameObject[] towers;
-    [SerializeField] public Vector3 offset;
+    [SerializeField] private GameObject[] towers;
+    [SerializeField] private Vector3 offset;
     public GameObject current_tower;
-    [SerializeField]  public int current_tower_number;
+    [SerializeField]  private int current_tower_number;
     public bool empty = true;
 
     private void Start()
