@@ -415,8 +415,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 096eac5d9d5593a449f081472f1cd6d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camera_position: {fileID: 248474371}
+  minX: -10
+  maxX: 10
+  minZ: -3
+  maxZ: 3
   sensitivity: 5
+  keyboardSpeed: 20
 --- !u!4 &248474371
 Transform:
   m_ObjectHideFlags: 0

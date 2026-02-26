@@ -5,7 +5,7 @@ public class Move_from_point_to_point : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private float rotation_speed;
-    [SerializeField] public Transform[] point;
+    public Transform[] point;
     int current_waypoint_index = 0;
 
     void Update()
